@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forget gmail address</title>
+  </head>
+  <body>
+    <form  action="mailto:mmmohitrrrao96@gmail.com" method="post" enctype="text/plain">
+    <label FOR="forgetmail"><u><FONT COLOR="BLUE" size="6" FACE="COMIC SANS MS">FORGET GMAIL ADDRESS</font></u></label><br><br>
+      <p><b>ENTER YOUR DETAILS</b>
+        <table style="border:3px black solid" cellspacing="20">
+          <tr   style="padding:5px">
+            <td align="right"><label for="PNO">ENTER_PHONE_NUMBER</label></td>
+            <td><input type="TEL" PLACEHOLDER="+91-987654321" PATTERN="[0-9]{2}-[0-9]{10}" min="8" max="13" name="PNO"><INPUT TYPE="SUBMIT" VALUE="SEND OTP" onclick=alert('OTP_SEND_TO_YOU_GIVEN_PHONE_NUMBER')></td>
+            <td align="right"><label for="DOB">ENTER_DOB:-</label></td>
+            <td><input type="DATE" name="DOB"></td>
+          </tr>
+          <tr style="padding:5px">
+            <td align="right"><label for="OTP">ENTER_OTP:-</label></td>
+            <td><input type="OTP" name="OTP" ><INPUT TYPE="SUBMIT" VALUE="GO" onclick=alert('WRONG_OTP')></td>
+
+          </tr>
+          <tr  style="padding:5px">
+            <td align="right"><label for="GMAIL">ENTER_YOUR_NEW_GMAILid:-</label></td>
+            <td><input type="email" name="GMAIL"></td>
+            <td align="right"><label for="PASSWORD">ENTER_GMAIL_PASSWORD:-</label></td>
+            <td><input type="password"></td>
+          </tr>
+
+        </table>
+      </p>
+
+      <INPUT TYPE="SUBMIT">
+
+      </form>
+
+
+  </body>
+</html>
