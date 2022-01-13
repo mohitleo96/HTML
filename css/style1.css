@@ -1,0 +1,26 @@
+
+body{
+   background-image: url(highway.jpg);
+   background-size:1400px 600px;
+
+}
+.font{
+  font-family:'georgia',serif;
+  font-size: 100px;
+  color:#d2691E;
+  text-shadow: 5px 6px 5px brown;
+}
+.font1
+{
+  font-family:'monaco',monospace;
+  font-size: 65px;
+  color: #87cefa;
+  text-shadow: 3px 4px 4px #0000cd;
+}
+table
+{
+  align:right;
+  space:30%;
+  background-color: black;
+  color:white;
+}
