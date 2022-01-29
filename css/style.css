@@ -9,7 +9,7 @@
 
 font,div,body
 {
-  font-family: 'Brush script MT',cursive;
+  font-family: 'Varela Round', sans-serif;
 }
 h3
 {
@@ -28,9 +28,13 @@ hr
   border-style: none;
   border-top-style: dotted;
   border-color:gray;
-  height: 2%;
-  width: 5%;
+  height: 2px;
+  width: 70px;
   border-width: 4px;
-  box-shadow: 0px 5px 5px 0px grey;
 
+}
+.profile
+{
+    border: 1px solid #e0ffff;
+    border-radius: 100%;;
 }
